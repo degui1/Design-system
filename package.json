@@ -1,4 +1,15 @@
 {
+  "name": "@ignite-ui/global",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.14"
+  },
+  "packageManager": "npm@9.8.1"
 }

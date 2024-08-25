@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/degui1.png',
     alt: 'Guilherme Gonçalves',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

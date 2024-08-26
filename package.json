@@ -1,14 +1,18 @@
 {
-  "name": "@ignite-ui/global",
+  "name": "@degui-ui/global",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@degui-ui/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "turbo": "^2.0.14"
   },
   "packageManager": "npm@9.8.1"

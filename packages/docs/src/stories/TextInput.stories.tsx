@@ -4,6 +4,11 @@ import { Box, Text, TextInput, TextInputProps } from '@degui-ui/react'
 export default {
   title: 'Form/Text Input',
   component: TextInput,
+  args: {
+    containerProps: {
+      size: 'md',
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -35,5 +40,13 @@ export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
     placeholder: 'your-username',
+  },
+}
+
+export const SizeContainer: StoryObj<TextInputProps> = {
+  args: {
+    containerProps: {
+      size: 'sm',
+    },
   },
 }

@@ -16,6 +16,8 @@ You can install these packages separately
 
 ### 👉 Links: 
 - Design-system documentation: [here](https://degui1.github.io/Design-system/)
+- React components: [NPM](https://www.npmjs.com/package/@degui-ui/react)
+- Tokens: [NPM](https://www.npmjs.com/package/@degui-ui/tokens)
 
 ## ▶ How to start project
 

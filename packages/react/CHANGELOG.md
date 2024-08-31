@@ -1,5 +1,11 @@
 # @degui-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- Add Tooltip component and Toast component
+
 ## 3.0.0
 
 ### Major Changes

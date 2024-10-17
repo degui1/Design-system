@@ -1,6 +1,6 @@
 # 🚀 Design System 🚀
 
-This project is a system design and aims to create and make available the token package, in addition to the visual components that will be used in other applications and the documentation of both.
+This project is a design system aimed at creating and providing a token package, along with visual components that will be used in other applications, as well as the documentation for both.
 
 These packages were made available on NPM and the project was organized using the structure of a monorepo.
 
